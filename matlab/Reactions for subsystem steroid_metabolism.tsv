@@ -1,0 +1,95 @@
+Reaction ID	Equation	Genes	Compartment
+MAR01644	3alpha,7alpha,12alpha-trihydroxy-5beta-cholest-24-enoyl-CoA [m] + H2O [m] ⇒ (24R,25R)3alpha,7alpha,12alpha,24-tetrahydroxy-5beta-cholestanoyl-CoA [m]	ACAA1; EHHADH; HSD17B4	Mitochondria
+MAR01651	(24R,25R)3alpha,7alpha,12alpha,24-tetrahydroxy-5beta-cholestanoyl-CoA [m] + NAD+ [m] ⇔ 3alpha,7alpha,12alpha-trihydroxy-5beta-24-oxocholestanoyl-CoA [m] + H+ [m] + NADH [m]	HADHA; HADH; HSD17B10	Mitochondria
+MAR01820	UDP-glucuronate [r] + bilirubin [r] ⇔ UDP [r] + bilirubin-monoglucuronoside [r]	UGT1A8	Endoplasmic reticulum
+MAR01920	H2O [c] + cholesterol-sulfate [c] ⇒ H+ [c] + cholesterol [c] + sulfate [c]	STS	Cytosol
+MAR01924	STAR [c] + cholesterol [c] ⇒ cholesterol-STAR [c]	STAR; STARD13; STARD8; STARD4; STARD7; STARD6; STARD9; STARD10; STARD5	Cytosol
+MAR01926	cholesterol-STAR [m] ⇒ STAR [m] + cholesterol [m]		Mitochondria
+MAR01927	H+ [m] + NADPH [m] + O2 [m] + cholesterol [m] ⇒ 22beta-hydroxycholesterol [m] + H2O [m] + NADP+ [m]	COQ6; CYP4V2; CYP2E1	Mitochondria
+MAR01928	22beta-hydroxycholesterol [m] + H+ [m] + NADPH [m] + O2 [m] ⇒ 20alpha,22beta dihydroxycholesterol [m] + H2O [m] + NADP+ [m]	CYP11A1	Mitochondria
+MAR01929	20alpha,22beta dihydroxycholesterol [m] + H+ [m] + NADPH [m] + O2 [m] ⇒ 2 H2O [m] + NADP+ [m] + isocaproic-aldehyde [m] + pregnenolone [m]	CYP11A1	Mitochondria
+MAR01931	H+ [c] + NADPH [c] + isocaproic-aldehyde [c] ⇒ 4-methylpentan-1-ol [c] + NADP+ [c]	AKR1B10; AKR1B1	Cytosol
+MAR01932	2 H+ [c] + O2 [c] + cholesterol [c] + 2 reduced adrenal ferredoxin [c] ⇒ 20-hydroxycholesterol [c] + H2O [c] + 2 oxidized adrenal ferredoxin [c]	CYP11A1	Cytosol
+MAR01933	20-hydroxycholesterol [c] + H+ [c] + NADPH [c] + O2 [c] ⇒ 17alpha,20alpha-dihydroxycholesterol [c] + H2O [c] + NADP+ [c]	CYP17A1	Cytosol
+MAR01934	17alpha,20alpha-dihydroxycholesterol [c] + 4 H+ [c] + 2 O2 [c] + 4 reduced adrenal ferredoxin [c] ⇒ 17alpha-hydroxypregnenolone [c] + 3 H2O [c] + isocaproic-aldehyde [c] + 4 oxidized adrenal ferredoxin [c]	CYP11A1	Cytosol
+MAR01935	20-hydroxycholesterol [c] + 2 H+ [c] + O2 [c] + 2 reduced adrenal ferredoxin [c] ⇒ 20alpha,22beta dihydroxycholesterol [c] + H2O [c] + 2 oxidized adrenal ferredoxin [c]	CYP11A1	Cytosol
+MAR01940	H+ [c] + NADPH [c] + O2 [c] + pregnenolone [c] ⇒ 21-hydroxypregnenolone [c] + H2O [c] + NADP+ [c]	CYP21A2	Cytosol
+MAR01941	21-hydroxypregnenolone [c] + NAD+ [c] ⇒ 11-deoxycorticosterone [c] + H+ [c] + NADH [c]	HSD3B1; HSD3B2	Cytosol
+MAR01942	11-deoxycorticosterone [c] + 2 H+ [c] + O2 [c] + 2 reduced ferredoxin [c] ⇒ H2O [c] + corticosterone [c] + 2 oxidized ferredoxin [c]	CYP11B2; CYP11B1	Cytosol
+MAR01943	H+ [c] + NADPH [c] + O2 [c] + pregnenolone [c] ⇒ 7alpha-hydroxypregnenolone [c] + H2O [c] + NADP+ [c]	CYP7B1	Cytosol
+MAR01948	17alpha-hydroxypregnenolone [c] + H+ [c] + NADPH [c] + O2 [c] ⇒ 17alpha,21-dihydroxypregnenolone [c] + H2O [c] + NADP+ [c]	CYP21A2	Cytosol
+MAR01949	17alpha,21-dihydroxypregnenolone [c] + NAD+ [c] ⇒ 11-deoxycortisol [c] + H+ [c] + NADH [c]	HSD3B2; HSD3B1	Cytosol
+MAR01950	17alpha,21-dihydroxypregnenolone [c] + 2 H+ [c] + O2 [c] + 2 reduced ferredoxin [c] ⇒ 11beta,17alpha,21-trihydroxypregnenolone [c] + H2O [c] + 2 oxidized ferredoxin [c]	CYP11B1; CYP11B2	Cytosol
+MAR01951	11beta,17alpha,21-trihydroxypregnenolone [c] + NAD+ [c] ⇒ H+ [c] + NADH [c] + cortisol [c]	HSD3B1; HSD3B2	Cytosol
+MAR01989	17alpha-hydroxyprogesterone [c] + H+ [c] + NADPH [c] + O2 [c] ⇒ 21-deoxycortisol [c] + H2O [c] + NADP+ [c]	CYP11B2; CYP11B1	Cytosol
+MAR01990	H2O [c] + NADP+ [c] + cortisol [c] ⇒ 21-deoxycortisol [c] + H+ [c] + NADPH [c] + O2 [c]	CYP21A2	Cytosol
+MAR01991	21-deoxycortisol [c] + H2O [c] + NADP+ [c] ⇒ 11beta-hydroxyprogesterone [c] + H+ [c] + NADPH [c] + O2 [c]	CYP17A1	Cytosol
+MAR01992	11beta-hydroxyprogesterone [c] + H+ [c] + NADPH [c] + O2 [c] ⇒ H2O [c] + NADP+ [c] + corticosterone [c]	CYP21A2	Cytosol
+MAR01993	H+ [c] + NADPH [c] + O2 [c] + progesterone [c] ⇒ 11beta-hydroxyprogesterone [c] + H2O [c] + NADP+ [c]	CYP11B2; CYP11B1	Cytosol
+MAR02002	5alpha-pregnane-3,20-dione [c] + NADP+ [c] ⇔ H+ [c] + NADPH [c] + progesterone [c]	SRD5A1; SRD5A2; SRD5A3	Cytosol
+MAR02003	3alpha-hydroxy-5alpha-pregnan-20-one [c] + NADP+ [c] ⇔ 5alpha-pregnane-3,20-dione [c] + H+ [c] + NADPH [c]	AKR1C3; AKR1C2; AKR1C4; AKR1C1	Cytosol
+MAR02004	5alpha-pregnane-3,20-dione [c] + H+ [c] + NADH [c] ⇔ NAD+ [c] + allopregnanolone [c]	AKR1C4	Cytosol
+MAR02005	H+ [c] + NADH [c] + O2 [c] + allopregnanolone [c] ⇒ 21-hydroxyallopregnanolone [c] + H2O [c] + NAD+ [c]	CYP21A2	Cytosol
+MAR02007	H+ [c] + NADPH [c] + O2 [c] + progesterone [c] ⇒ 11-deoxycorticosterone [c] + H2O [c] + NADP+ [c]	CYP21A2	Cytosol
+MAR02009	11-deoxycorticosterone [m] + H+ [m] + NADPH [m] + O2 [m] ⇒ H2O [m] + NADP+ [m] + corticosterone [m]	CYP11B1; CYP11B2	Mitochondria
+MAR02010	H+ [m] + NADPH [m] + O2 [m] + corticosterone [m] ⇒ 18-hydroxycorticosterone [m] + H2O [m] + NADP+ [m]	CYP11B2	Mitochondria
+MAR02011	18-hydroxycorticosterone [m] + H+ [m] + NADPH [m] + O2 [m] ⇒ 2 H2O [m] + NADP+ [m] + aldosterone [m]	CYP11B2	Mitochondria
+MAR02041	H+ [r] + NADPH [r] + estrone [r] ⇒ NADP+ [r] + estradiol-17beta [r]	HSD17B1; HSD17B11; HSD17B7; HSD17B6; HSD17B8; HSD17B12; HSD17B2	Endoplasmic reticulum
+MAR02723	17alpha-hydroxyprogesterone [m] + NADPH [m] + O2 [m] ⇒ 4-androstene-3,17-dione [m] + H2O [m] + NADP+ [m] + acetate [m]	CYP17A1	Mitochondria
+MAR02725	17alpha-hydroxypregnenolone sulfate [g] + H2O [g] ⇔ 17alpha-hydroxypregnenolone [g] + H+ [g] + sulfate [g]	STS	Golgi apparatus
+MAR02728	17alpha-hydroxypregnenolone sulfate [l] + H2O [l] ⇔ 17alpha-hydroxypregnenolone [l] + H+ [l] + sulfate [l]	STS	Lysosome
+MAR02743	17alpha-hydroxypregnenolone sulfate [r] + H2O [r] ⇔ 17alpha-hydroxypregnenolone [r] + H+ [r] + sulfate [r]	STS	Endoplasmic reticulum
+MAR02747	H2O [g] + cholesterol-sulfate [g] ⇔ H+ [g] + cholesterol [g] + sulfate [g]	STS	Golgi apparatus
+MAR02749	H2O [l] + cholesterol-sulfate [l] ⇔ H+ [l] + cholesterol [l] + sulfate [l]	STS	Lysosome
+MAR02751	17alpha-hydroxypregnenolone [m] + NADPH [m] + O2 [m] ⇒ H2O [m] + NADP+ [m] + acetate [m] + dehydroepiandrosterone [m]	CYP17A1	Mitochondria
+MAR02756	H2O [g] + pregnenolone sulfate [g] ⇔ H+ [g] + pregnenolone [g] + sulfate [g]	STS	Golgi apparatus
+MAR02763	H2O [l] + pregnenolone sulfate [l] ⇔ H+ [l] + pregnenolone [l] + sulfate [l]	STS	Lysosome
+MAR03257	H+ [r] + NADPH [r] + cortisol [r] ⇒ 11beta-hydroxyandrost-4-ene-3,17-dione [r] + H2O [r] + NADP+ [r] + acetaldehyde [r]	CYP17A1	Endoplasmic reticulum
+MAR04766	2 UDP-glucuronate [r] + bilirubin [r] ⇒ 2 UDP [r] + bilirubin-bisglucuronoside [r]	UGT2B11; UGT3A1; UGT1A4; UGT1A7; UGT2B15; UGT2B10; UGT2B4; UGT1A1; UGT2B17; UGT2A3; UGT1A8; UGT1A6; UGT2B28; UGT1A5; UGT2A1; UGT2B7; UGT1A9; UGT3A2; UGT1A10; UGT1A3	Endoplasmic reticulum
+MAR06793	iodine [c] + tyrosine [c] ⇒ 3-iodo-L-tyrosine [c] + H+ [c] + hydroiodic acid [c]	TPO	Cytosol
+MAR06794	3-iodo-L-tyrosine [c] + iodine [c] ⇒ 3,5-diiodo-L-tyrosine [c] + H+ [c] + hydroiodic acid [c]	TPO	Cytosol
+MAR06795	2 3,5-diiodo-L-tyrosine [c] + H2O2 [c] ⇒ 2 H2O [c] + dehydroalanine [c] + thyroxine [c]	TPO	Cytosol
+MAR06796	3,5-diiodo-L-tyrosine [c] + 3-iodo-L-tyrosine [c] + H2O2 [c] ⇒ 2 H2O [c] + dehydroalanine [c] + triiodothyronine [c]	TPO	Cytosol
+MAR07648	UDP-glucuronate [r] + estradiol-17beta [r] ⇒ UDP [r] + estradiol-17beta 3-glucuronide [r]	UGT2B17; UGT3A2; UGT2B4; UGT1A1; UGT1A9; UGT2B15; UGT2B7; UGT1A3; UGT1A5; UGT1A4; UGT1A8; UGT1A7; UGT2B11; UGT2A1; UGT1A10; UGT2A3; UGT2B10; UGT3A1; UGT2B28; UGT1A6	Endoplasmic reticulum
+MAR07928	17alpha-hydroxyprogesterone [r] + H+ [r] + NADPH [r] + O2 [r] ⇒ 11-deoxycortisol [r] + H2O [r] + NADP+ [r]	CYP21A2	Endoplasmic reticulum
+MAR07930	NAD+ [c] + pregnenolone [c] ⇒ H+ [c] + NADH [c] + progesterone [c]	HSD3B2; HSD3B1	Cytosol
+MAR07931	NAD+ [r] + pregnenolone [r] ⇒ H+ [r] + NADH [r] + progesterone [r]	HSD3B1; HSD3B2	Endoplasmic reticulum
+MAR07932	H+ [r] + NADPH [r] + O2 [r] + progesterone [r] ⇒ 11-deoxycorticosterone [r] + H2O [r] + NADP+ [r]	CYP21A2	Endoplasmic reticulum
+MAR07934	11-deoxycorticosterone [m] + H+ [m] + NADPH [m] + 2 O2 [m] ⇒ 2 H2O [m] + NADP+ [m] + aldosterone [m]	CYP11B2	Mitochondria
+MAR07935	H+ [m] + NADPH [m] + 2 O2 [m] + cholesterol [m] ⇒ 2 H2O [m] + NADP+ [m] + isocaproic-aldehyde [m] + pregnenolone [m]	CYP11A1	Mitochondria
+MAR07936	17alpha-hydroxypregnenolone [r] + H+ [r] + NADPH [r] + 0.5 O2 [r] ⇒ H2O [r] + NADP+ [r] + acetaldehyde [r] + dehydroepiandrosterone [r]	CYP17A1	Endoplasmic reticulum
+MAR07937	H+ [r] + NADPH [r] + O2 [r] + progesterone [r] ⇒ 17alpha-hydroxyprogesterone [r] + H2O [r] + NADP+ [r]	CYP17A1	Endoplasmic reticulum
+MAR07938	17alpha-hydroxyprogesterone [r] + H+ [r] + NADPH [r] + 0.5 O2 [r] ⇒ 4-androstene-3,17-dione [r] + H2O [r] + NADP+ [r] + acetaldehyde [r]	CYP17A1	Endoplasmic reticulum
+MAR07939	17alpha-hydroxypregnenolone [r] + NAD+ [r] ⇒ 17alpha-hydroxyprogesterone [r] + H+ [r] + NADH [r]	HSD3B2; HSD3B1	Endoplasmic reticulum
+MAR07940	4-androstene-3,17-dione [r] + NADPH [r] + 2 O2 [r] ⇒ 2 H2O [r] + NADP+ [r] + estrone [r] + formate [r]	CYP2D6; CYP2U1; CYP4Z1; CYP2A6; CYP1A1; CYP3A7-CYP3A51P; CYP2C18; CYP19A1; CYP2J2; CYP4F11; CYP2S1; CYP4B1; CYP2B6; CYP2C8; CYP3A7; CYP3A43; CYP2C9; CYP2F1; CYP2A7; CYP3A5; CYP2A13; CYP2E1; CYP4X1; CYP4F8; CYP1A2; CYP4F12; CYP1B1; CYP3A4	Endoplasmic reticulum
+MAR07941	NADPH [r] + 2 O2 [r] + testosterone [r] ⇒ 2 H2O [r] + NADP+ [r] + estradiol-17beta [r] + formate [r]	CYP4Z1; CYP2C9; CYP2F1; CYP4B1; CYP2E1; CYP1A1; CYP2B6; CYP2S1; CYP3A43; CYP2J2; CYP4X1; CYP3A5; CYP19A1; CYP2C18; CYP2U1; CYP3A7-CYP3A51P; CYP3A7; CYP4F8; CYP3A4; CYP2A6; CYP1B1; CYP4F12; CYP2A13; CYP2A7; CYP2D6; CYP4F11; CYP1A2; CYP2C8	Endoplasmic reticulum
+MAR07942	H+ [r] + NADPH [r] + cortisone [r] ⇔ NADP+ [r] + cortisol [r]	HSD11B1	Endoplasmic reticulum
+MAR07943	H+ [r] + NADH [r] + cortisone [r] ⇔ NAD+ [r] + cortisol [r]	HSD11B2	Endoplasmic reticulum
+MAR07945	H2O [r] + estrone 3-sulfate [r] ⇒ H+ [r] + estrone [r] + sulfate [r]	STS	Endoplasmic reticulum
+MAR07948	H2O [r] + pregnenolone sulfate [r] ⇒ H+ [r] + pregnenolone [r] + sulfate [r]	STS	Endoplasmic reticulum
+MAR07950	H2O [r] + cholesterol-sulfate [r] ⇒ H+ [r] + cholesterol [r] + sulfate [r]	STS	Endoplasmic reticulum
+MAR07952	H2O [r] + dehydroepiandrosterone sulfate [r] ⇒ H+ [r] + dehydroepiandrosterone [r] + sulfate [r]	STS	Endoplasmic reticulum
+MAR07954	NAD+ [r] + dehydroepiandrosterone [r] ⇒ 4-androstene-3,17-dione [r] + H+ [r] + NADH [r]	HSD3B1; HSD3B2	Endoplasmic reticulum
+MAR07955	4-androstene-3,17-dione [r] + H+ [r] + NADH [r] ⇒ NAD+ [r] + testosterone [r]	HSD17B2; HSD17B8; HSD17B6	Endoplasmic reticulum
+MAR07957	H+ [r] + NADPH [r] + O2 [r] + testosterone [r] ⇒ 19-hydroxytestosterone [r] + H2O [r] + NADP+ [r]	CYP1A1; CYP2A7; CYP2C18; CYP2F1; CYP2J2; CYP2B6; CYP3A7; CYP3A5; CYP3A43; CYP4B1; CYP4Z1; CYP4F12; CYP2D6; CYP4F11; CYP19A1; CYP2A13; CYP2A6; CYP2E1; CYP4F8; CYP2C19; CYP2U1; CYP2C9; CYP3A7-CYP3A51P; CYP3A4; CYP2S1; CYP2C8; CYP4X1; CYP1A2; CYP1B1	Endoplasmic reticulum
+MAR07958	H+ [r] + NADPH [r] + O2 [r] + testosterone [r] ⇒ 6beta-hydroxytestosterone [r] + H2O [r] + NADP+ [r]	CYP3A7; CYP3A7-CYP3A51P	Endoplasmic reticulum
+MAR07959	UDP-glucuronate [r] + testosterone [r] ⇒ UDP [r] + testosterone glucuronide [r]	UGT2B28; UGT1A10; UGT2B7; UGT1A8; UGT1A1; UGT2B17	Endoplasmic reticulum
+MAR07962	UDP-glucuronate [r] + estrone [r] ⇒ UDP [r] + estrone-glucuronide [r]	UGT1A10; UGT1A1; UGT1A8	Endoplasmic reticulum
+MAR07965	UDP-glucuronate [r] + androsterone [r] ⇒ UDP [r] + androsterone-glucuronide [r]	UGT2B7; UGT2B17; UGT1A8; UGT1A1; UGT2B28; UGT1A10	Endoplasmic reticulum
+MAR07968	H+ [r] + NADH [r] + estrone [r] ⇒ NAD+ [r] + estradiol-17beta [r]	HSD17B12; HSD17B1; HSD17B7; HSD17B11; HSD17B8; HSD17B2; HSD17B6	Endoplasmic reticulum
+MAR07970	H+ [r] + NADPH [r] + 1.5 O2 [r] + androsterone [r] ⇒ 16alpha-hydroxydehydroepiandrosterone [r] + 2 H2O [r] + NADP+ [r]	HSD17B7	Endoplasmic reticulum
+MAR07971	16alpha-hydroxydehydroepiandrosterone [r] + H+ [r] + NADH [r] ⇒ 5alpha-androstane-3,17-dione [r] + H2O [r] + NAD+ [r]	HSD3B1; HSD3B2	Endoplasmic reticulum
+MAR07972	16alpha-hydroxydehydroepiandrosterone [r] + H+ [r] + NADPH [r] ⇒ 5alpha-androstane-3,17-dione [r] + H2O [r] + NADP+ [r]	HSD3B2; HSD3B1	Endoplasmic reticulum
+MAR07973	17alpha-hydroxypregnenolone [c] + NAD+ [c] ⇒ 17alpha-hydroxyprogesterone [c] + H+ [c] + NADH [c]	HSD3B1; HSD3B2	Cytosol
+MAR07974	5-alpha-dihydrotestosterone [c] + PAPS [c] ⇒ 5alpha-dihydrotestosterone-sulfate [c] + H+ [c] + PAP [c]	SULT2A1	Cytosol
+MAR07976	H+ [c] + NADPH [c] + progesterone [c] ⇒ 20alpha-hydroxy-4-pregnen-3-one [c] + NADP+ [c]	AKR1C1	Cytosol
+MAR07978	PAPS [c] + testosterone [c] ⇒ H+ [c] + PAP [c] + testosterone sulfate [c]	SULT2A1	Cytosol
+MAR07980	UDP-glucuronate [r] + etiocholanolone [r] ⇒ UDP [r] + etiocholan-3alpha-ol-17-one 3-glucuronide [r]	UGT1A10; UGT1A1; UGT1A8	Endoplasmic reticulum
+MAR07984	UDP-glucuronate [r] + estriol [r] ⇒ 16-glucuronide-estriol [r] + UDP [r]	UGT2B28; UGT2B4; UGT1A10; UGT1A8; UGT1A1	Endoplasmic reticulum
+MAR07987	5-alpha-dihydrotestosterone [r] + UDP-glucuronate [r] ⇒ 5alpha-dihydrotestosterone-glucuronide [r] + UDP [r]	UGT1A8; UGT1A10; UGT1A1; UGT2B28; UGT2B4	Endoplasmic reticulum
+MAR09937	4-androstene-3,17-dione [c] + H+ [c] + NADPH [c] + O2 [c] ⇒ 19-Hydroxyandrost-4-Ene-3,17-Dione [c] + H2O [c] + NADP+ [c]	CYP2D6	Cytosol
+MAR10066	20alpha-hydroxy-4-pregnen-3-one [c] + NAD+ [c] ⇒ H+ [c] + NADH [c] + progesterone [c]	AKR1C1	Cytosol
+MAR10071	5alpha-Pregnan-20alpha-ol-3-one [c] + NADP+ [c] ⇒ 5alpha-pregnane-3,20-dione [c] + H+ [c] + NADPH [c]	AKR1C3	Cytosol
+MAR10072	17alpha,20alpha-Dihydroxypregn-4-en-3-one [c] + NADP+ [c] ⇒ 17alpha-hydroxyprogesterone [c] + H+ [c] + NADPH [c]	AKR1C3	Cytosol
+MAR11368	H+ [r] + NADPH [r] + O2 [r] + estradiol-17beta [r] ⇒ H2O [r] + NADP+ [r] + estriol [r]		Endoplasmic reticulum
+MAR11369	16alpha-hydroxyestrone [r] + H+ [r] + NADH [r] ⇒ NAD+ [r] + estriol [r]		Endoplasmic reticulum
